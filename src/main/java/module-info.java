@@ -13,4 +13,6 @@ module org.example.proyectofacturacion {
 
     opens org.example.proyectofacturacion to javafx.fxml;
     exports org.example.proyectofacturacion;
+
+
 }
