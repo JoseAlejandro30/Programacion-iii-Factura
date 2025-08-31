@@ -10,6 +10,7 @@ module org.example.proyectofacturacion {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires static lombok;
 
     opens org.example.proyectofacturacion to javafx.fxml;
     exports org.example.proyectofacturacion;
